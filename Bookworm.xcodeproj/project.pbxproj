@@ -1,0 +1,689 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		9E71938C281F9FF800433F78 /* ImagePickerManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E71938B281F9FF800433F78 /* ImagePickerManager.swift */; };
+		9E719397281FAAF600433F78 /* Basics Of HTML5.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 9E71938D281FAAF500433F78 /* Basics Of HTML5.pdf */; };
+		9E719398281FAAF600433F78 /* The Metamorphosis by Franz Kafka.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 9E71938E281FAAF500433F78 /* The Metamorphosis by Franz Kafka.pdf */; };
+		9E719399281FAAF600433F78 /* Einstein's Dreams by Alan Lightman .pdf in Resources */ = {isa = PBXBuildFile; fileRef = 9E71938F281FAAF500433F78 /* Einstein's Dreams by Alan Lightman .pdf */; };
+		9E71939A281FAAF600433F78 /* Practical Web Scraping.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 9E719390281FAAF600433F78 /* Practical Web Scraping.pdf */; };
+		9E71939B281FAAF600433F78 /* DotNETFramework Professionals.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 9E719391281FAAF600433F78 /* DotNETFramework Professionals.pdf */; };
+		9E71939C281FAAF600433F78 /* JavaScript for Web Development.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 9E719392281FAAF600433F78 /* JavaScript for Web Development.pdf */; };
+		9E71939D281FAAF600433F78 /* An Introduction to Agriculture.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 9E719393281FAAF600433F78 /* An Introduction to Agriculture.pdf */; };
+		9E71939E281FAAF600433F78 /* Alice's Adventures in Wonderland by Lewis Caroll.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 9E719394281FAAF600433F78 /* Alice's Adventures in Wonderland by Lewis Caroll.pdf */; };
+		9E71939F281FAAF600433F78 /* Geography of the US by the Core Knowledge Foundation.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 9E719395281FAAF600433F78 /* Geography of the US by the Core Knowledge Foundation.pdf */; };
+		9E7193A0281FAAF600433F78 /* Python Programming.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 9E719396281FAAF600433F78 /* Python Programming.pdf */; };
+		9EB64348281D126500090321 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9EB64347281D126500090321 /* AppDelegate.swift */; };
+		9EB6434A281D126500090321 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9EB64349281D126500090321 /* SceneDelegate.swift */; };
+		9EB6434C281D126500090321 /* LoginVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9EB6434B281D126500090321 /* LoginVC.swift */; };
+		9EB6434F281D126500090321 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9EB6434D281D126500090321 /* Main.storyboard */; };
+		9EB64352281D126500090321 /* Bookworm.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 9EB64350281D126500090321 /* Bookworm.xcdatamodeld */; };
+		9EB64354281D126D00090321 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9EB64353281D126D00090321 /* Assets.xcassets */; };
+		9EB64357281D126D00090321 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9EB64355281D126D00090321 /* LaunchScreen.storyboard */; };
+		9EB6437F281D134000090321 /* IQTextView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9EB64361281D134000090321 /* IQTextView.swift */; };
+		9EB64380281D134000090321 /* IQKeyboardManager+Internal.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9EB64362281D134000090321 /* IQKeyboardManager+Internal.swift */; };
+		9EB64381281D134000090321 /* IQPreviousNextView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9EB64364281D134000090321 /* IQPreviousNextView.swift */; };
+		9EB64382281D134000090321 /* IQTitleBarButtonItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9EB64365281D134000090321 /* IQTitleBarButtonItem.swift */; };
+		9EB64383281D134000090321 /* IQBarButtonItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9EB64366281D134000090321 /* IQBarButtonItem.swift */; };
+		9EB64384281D134000090321 /* IQToolbar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9EB64367281D134000090321 /* IQToolbar.swift */; };
+		9EB64385281D134000090321 /* IQUIView+IQKeyboardToolbar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9EB64368281D134000090321 /* IQUIView+IQKeyboardToolbar.swift */; };
+		9EB64386281D134000090321 /* IQInvocation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9EB64369281D134000090321 /* IQInvocation.swift */; };
+		9EB64387281D134000090321 /* IQKeyboardManager+UIKeyboardNotification.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9EB6436A281D134000090321 /* IQKeyboardManager+UIKeyboardNotification.swift */; };
+		9EB64388281D134000090321 /* IQKeyboardManagerConstantsInternal.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9EB6436C281D134000090321 /* IQKeyboardManagerConstantsInternal.swift */; };
+		9EB64389281D134000090321 /* IQKeyboardManagerConstants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9EB6436D281D134000090321 /* IQKeyboardManagerConstants.swift */; };
+		9EB6438A281D134000090321 /* IQKeyboardManager+Position.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9EB6436E281D134000090321 /* IQKeyboardManager+Position.swift */; };
+		9EB6438B281D134000090321 /* IQKeyboardReturnKeyHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9EB6436F281D134000090321 /* IQKeyboardReturnKeyHandler.swift */; };
+		9EB6438C281D134000090321 /* IQKeyboardManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9EB64370281D134000090321 /* IQKeyboardManager.swift */; };
+		9EB6438D281D134000090321 /* IQKeyboardManager+Debug.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9EB64371281D134000090321 /* IQKeyboardManager+Debug.swift */; };
+		9EB6438E281D134000090321 /* IQKeyboardManager+OrientationNotification.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9EB64372281D134000090321 /* IQKeyboardManager+OrientationNotification.swift */; };
+		9EB6438F281D134000090321 /* IQKeyboardManager+Toolbar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9EB64373281D134000090321 /* IQKeyboardManager+Toolbar.swift */; };
+		9EB64390281D134000090321 /* IQUIScrollView+Additions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9EB64375281D134000090321 /* IQUIScrollView+Additions.swift */; };
+		9EB64391281D134000090321 /* IQUIViewController+Additions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9EB64376281D134000090321 /* IQUIViewController+Additions.swift */; };
+		9EB64392281D134000090321 /* IQUITextFieldView+Additions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9EB64377281D134000090321 /* IQUITextFieldView+Additions.swift */; };
+		9EB64393281D134100090321 /* IQUIView+Hierarchy.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9EB64378281D134000090321 /* IQUIView+Hierarchy.swift */; };
+		9EB64394281D134100090321 /* IQNSArray+Sort.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9EB64379281D134000090321 /* IQNSArray+Sort.swift */; };
+		9EB64395281D134100090321 /* IQKeyboardManager+UITextFieldViewNotification.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9EB6437A281D134000090321 /* IQKeyboardManager+UITextFieldViewNotification.swift */; };
+		9EB64396281D134100090321 /* Toast.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9EB6437C281D134000090321 /* Toast.swift */; };
+		9EB64398281D134100090321 /* Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9EB6437E281D134000090321 /* Extension.swift */; };
+		9EB643A0281D21CA00090321 /* TabbarVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9EB6439E281D21CA00090321 /* TabbarVC.swift */; };
+		9EB643A5281D26DD00090321 /* HomeVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9EB643A4281D26DD00090321 /* HomeVC.swift */; };
+		9EB643A8281D2A1D00090321 /* BookVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9EB643A7281D2A1D00090321 /* BookVC.swift */; };
+		9EB643AB281D2A5500090321 /* WishListVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9EB643AA281D2A5500090321 /* WishListVC.swift */; };
+		9EB643AE281D2B9F00090321 /* Book_Cell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9EB643AD281D2B9F00090321 /* Book_Cell.swift */; };
+		9EB643B5281D320A00090321 /* ReadBookVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9EB643B4281D320A00090321 /* ReadBookVC.swift */; };
+		9EB643BB281D428800090321 /* WishList_Cell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9EB643BA281D428800090321 /* WishList_Cell.swift */; };
+		9EFB99DE281D4C9F00D13875 /* FloatRatingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9EFB99DD281D4C9F00D13875 /* FloatRatingView.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		9E71938B281F9FF800433F78 /* ImagePickerManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImagePickerManager.swift; sourceTree = "<group>"; };
+		9E71938D281FAAF500433F78 /* Basics Of HTML5.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "Basics Of HTML5.pdf"; sourceTree = "<group>"; };
+		9E71938E281FAAF500433F78 /* The Metamorphosis by Franz Kafka.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "The Metamorphosis by Franz Kafka.pdf"; sourceTree = "<group>"; };
+		9E71938F281FAAF500433F78 /* Einstein's Dreams by Alan Lightman .pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "Einstein's Dreams by Alan Lightman .pdf"; sourceTree = "<group>"; };
+		9E719390281FAAF600433F78 /* Practical Web Scraping.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "Practical Web Scraping.pdf"; sourceTree = "<group>"; };
+		9E719391281FAAF600433F78 /* DotNETFramework Professionals.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "DotNETFramework Professionals.pdf"; sourceTree = "<group>"; };
+		9E719392281FAAF600433F78 /* JavaScript for Web Development.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "JavaScript for Web Development.pdf"; sourceTree = "<group>"; };
+		9E719393281FAAF600433F78 /* An Introduction to Agriculture.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "An Introduction to Agriculture.pdf"; sourceTree = "<group>"; };
+		9E719394281FAAF600433F78 /* Alice's Adventures in Wonderland by Lewis Caroll.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "Alice's Adventures in Wonderland by Lewis Caroll.pdf"; sourceTree = "<group>"; };
+		9E719395281FAAF600433F78 /* Geography of the US by the Core Knowledge Foundation.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "Geography of the US by the Core Knowledge Foundation.pdf"; sourceTree = "<group>"; };
+		9E719396281FAAF600433F78 /* Python Programming.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "Python Programming.pdf"; sourceTree = "<group>"; };
+		9EB64344281D126500090321 /* Bookworm.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Bookworm.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		9EB64347281D126500090321 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		9EB64349281D126500090321 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		9EB6434B281D126500090321 /* LoginVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginVC.swift; sourceTree = "<group>"; };
+		9EB6434E281D126500090321 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		9EB64351281D126500090321 /* Bookworm.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Bookworm.xcdatamodel; sourceTree = "<group>"; };
+		9EB64353281D126D00090321 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		9EB64356281D126D00090321 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		9EB64358281D126D00090321 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9EB64361281D134000090321 /* IQTextView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = IQTextView.swift; sourceTree = "<group>"; };
+		9EB64362281D134000090321 /* IQKeyboardManager+Internal.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "IQKeyboardManager+Internal.swift"; sourceTree = "<group>"; };
+		9EB64364281D134000090321 /* IQPreviousNextView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = IQPreviousNextView.swift; sourceTree = "<group>"; };
+		9EB64365281D134000090321 /* IQTitleBarButtonItem.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = IQTitleBarButtonItem.swift; sourceTree = "<group>"; };
+		9EB64366281D134000090321 /* IQBarButtonItem.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = IQBarButtonItem.swift; sourceTree = "<group>"; };
+		9EB64367281D134000090321 /* IQToolbar.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = IQToolbar.swift; sourceTree = "<group>"; };
+		9EB64368281D134000090321 /* IQUIView+IQKeyboardToolbar.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "IQUIView+IQKeyboardToolbar.swift"; sourceTree = "<group>"; };
+		9EB64369281D134000090321 /* IQInvocation.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = IQInvocation.swift; sourceTree = "<group>"; };
+		9EB6436A281D134000090321 /* IQKeyboardManager+UIKeyboardNotification.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "IQKeyboardManager+UIKeyboardNotification.swift"; sourceTree = "<group>"; };
+		9EB6436C281D134000090321 /* IQKeyboardManagerConstantsInternal.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = IQKeyboardManagerConstantsInternal.swift; sourceTree = "<group>"; };
+		9EB6436D281D134000090321 /* IQKeyboardManagerConstants.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = IQKeyboardManagerConstants.swift; sourceTree = "<group>"; };
+		9EB6436E281D134000090321 /* IQKeyboardManager+Position.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "IQKeyboardManager+Position.swift"; sourceTree = "<group>"; };
+		9EB6436F281D134000090321 /* IQKeyboardReturnKeyHandler.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = IQKeyboardReturnKeyHandler.swift; sourceTree = "<group>"; };
+		9EB64370281D134000090321 /* IQKeyboardManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = IQKeyboardManager.swift; sourceTree = "<group>"; };
+		9EB64371281D134000090321 /* IQKeyboardManager+Debug.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "IQKeyboardManager+Debug.swift"; sourceTree = "<group>"; };
+		9EB64372281D134000090321 /* IQKeyboardManager+OrientationNotification.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "IQKeyboardManager+OrientationNotification.swift"; sourceTree = "<group>"; };
+		9EB64373281D134000090321 /* IQKeyboardManager+Toolbar.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "IQKeyboardManager+Toolbar.swift"; sourceTree = "<group>"; };
+		9EB64375281D134000090321 /* IQUIScrollView+Additions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "IQUIScrollView+Additions.swift"; sourceTree = "<group>"; };
+		9EB64376281D134000090321 /* IQUIViewController+Additions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "IQUIViewController+Additions.swift"; sourceTree = "<group>"; };
+		9EB64377281D134000090321 /* IQUITextFieldView+Additions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "IQUITextFieldView+Additions.swift"; sourceTree = "<group>"; };
+		9EB64378281D134000090321 /* IQUIView+Hierarchy.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "IQUIView+Hierarchy.swift"; sourceTree = "<group>"; };
+		9EB64379281D134000090321 /* IQNSArray+Sort.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "IQNSArray+Sort.swift"; sourceTree = "<group>"; };
+		9EB6437A281D134000090321 /* IQKeyboardManager+UITextFieldViewNotification.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "IQKeyboardManager+UITextFieldViewNotification.swift"; sourceTree = "<group>"; };
+		9EB6437C281D134000090321 /* Toast.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Toast.swift; sourceTree = "<group>"; };
+		9EB6437E281D134000090321 /* Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Extension.swift; sourceTree = "<group>"; };
+		9EB6439E281D21CA00090321 /* TabbarVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TabbarVC.swift; sourceTree = "<group>"; };
+		9EB643A4281D26DD00090321 /* HomeVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeVC.swift; sourceTree = "<group>"; };
+		9EB643A7281D2A1D00090321 /* BookVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BookVC.swift; sourceTree = "<group>"; };
+		9EB643AA281D2A5500090321 /* WishListVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WishListVC.swift; sourceTree = "<group>"; };
+		9EB643AD281D2B9F00090321 /* Book_Cell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Book_Cell.swift; sourceTree = "<group>"; };
+		9EB643B4281D320A00090321 /* ReadBookVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReadBookVC.swift; sourceTree = "<group>"; };
+		9EB643BA281D428800090321 /* WishList_Cell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WishList_Cell.swift; sourceTree = "<group>"; };
+		9EFB99DD281D4C9F00D13875 /* FloatRatingView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FloatRatingView.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		9EB64341281D126500090321 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		9EB6433B281D126500090321 = {
+			isa = PBXGroup;
+			children = (
+				9EB64346281D126500090321 /* Bookworm */,
+				9EB64345281D126500090321 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		9EB64345281D126500090321 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				9EB64344281D126500090321 /* Bookworm.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		9EB64346281D126500090321 /* Bookworm */ = {
+			isa = PBXGroup;
+			children = (
+				9EB643AF281D2DFB00090321 /* Resource */,
+				9EB6439A281D136100090321 /* Controller */,
+				9EB64399281D134C00090321 /* View */,
+				9EB6435E281D132D00090321 /* Utility */,
+				9EB64347281D126500090321 /* AppDelegate.swift */,
+				9EB64349281D126500090321 /* SceneDelegate.swift */,
+				9EB64353281D126D00090321 /* Assets.xcassets */,
+				9EB64358281D126D00090321 /* Info.plist */,
+				9EB64350281D126500090321 /* Bookworm.xcdatamodeld */,
+			);
+			path = Bookworm;
+			sourceTree = "<group>";
+		};
+		9EB6435E281D132D00090321 /* Utility */ = {
+			isa = PBXGroup;
+			children = (
+				9EFB99DD281D4C9F00D13875 /* FloatRatingView.swift */,
+				9EB6437E281D134000090321 /* Extension.swift */,
+				9EB6435F281D134000090321 /* IQKeyboardManagerSwift */,
+				9EB6437B281D134000090321 /* Toast */,
+				9E71938B281F9FF800433F78 /* ImagePickerManager.swift */,
+			);
+			path = Utility;
+			sourceTree = "<group>";
+		};
+		9EB6435F281D134000090321 /* IQKeyboardManagerSwift */ = {
+			isa = PBXGroup;
+			children = (
+				9EB64360281D134000090321 /* IQTextView */,
+				9EB64362281D134000090321 /* IQKeyboardManager+Internal.swift */,
+				9EB64363281D134000090321 /* IQToolbar */,
+				9EB6436A281D134000090321 /* IQKeyboardManager+UIKeyboardNotification.swift */,
+				9EB6436B281D134000090321 /* Constants */,
+				9EB6436E281D134000090321 /* IQKeyboardManager+Position.swift */,
+				9EB6436F281D134000090321 /* IQKeyboardReturnKeyHandler.swift */,
+				9EB64370281D134000090321 /* IQKeyboardManager.swift */,
+				9EB64371281D134000090321 /* IQKeyboardManager+Debug.swift */,
+				9EB64372281D134000090321 /* IQKeyboardManager+OrientationNotification.swift */,
+				9EB64373281D134000090321 /* IQKeyboardManager+Toolbar.swift */,
+				9EB64374281D134000090321 /* Categories */,
+				9EB6437A281D134000090321 /* IQKeyboardManager+UITextFieldViewNotification.swift */,
+			);
+			path = IQKeyboardManagerSwift;
+			sourceTree = "<group>";
+		};
+		9EB64360281D134000090321 /* IQTextView */ = {
+			isa = PBXGroup;
+			children = (
+				9EB64361281D134000090321 /* IQTextView.swift */,
+			);
+			path = IQTextView;
+			sourceTree = "<group>";
+		};
+		9EB64363281D134000090321 /* IQToolbar */ = {
+			isa = PBXGroup;
+			children = (
+				9EB64364281D134000090321 /* IQPreviousNextView.swift */,
+				9EB64365281D134000090321 /* IQTitleBarButtonItem.swift */,
+				9EB64366281D134000090321 /* IQBarButtonItem.swift */,
+				9EB64367281D134000090321 /* IQToolbar.swift */,
+				9EB64368281D134000090321 /* IQUIView+IQKeyboardToolbar.swift */,
+				9EB64369281D134000090321 /* IQInvocation.swift */,
+			);
+			path = IQToolbar;
+			sourceTree = "<group>";
+		};
+		9EB6436B281D134000090321 /* Constants */ = {
+			isa = PBXGroup;
+			children = (
+				9EB6436C281D134000090321 /* IQKeyboardManagerConstantsInternal.swift */,
+				9EB6436D281D134000090321 /* IQKeyboardManagerConstants.swift */,
+			);
+			path = Constants;
+			sourceTree = "<group>";
+		};
+		9EB64374281D134000090321 /* Categories */ = {
+			isa = PBXGroup;
+			children = (
+				9EB64375281D134000090321 /* IQUIScrollView+Additions.swift */,
+				9EB64376281D134000090321 /* IQUIViewController+Additions.swift */,
+				9EB64377281D134000090321 /* IQUITextFieldView+Additions.swift */,
+				9EB64378281D134000090321 /* IQUIView+Hierarchy.swift */,
+				9EB64379281D134000090321 /* IQNSArray+Sort.swift */,
+			);
+			path = Categories;
+			sourceTree = "<group>";
+		};
+		9EB6437B281D134000090321 /* Toast */ = {
+			isa = PBXGroup;
+			children = (
+				9EB6437C281D134000090321 /* Toast.swift */,
+			);
+			path = Toast;
+			sourceTree = "<group>";
+		};
+		9EB64399281D134C00090321 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				9EB643AC281D2B8000090321 /* TableviewCell */,
+				9EB6434D281D126500090321 /* Main.storyboard */,
+				9EB64355281D126D00090321 /* LaunchScreen.storyboard */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		9EB6439A281D136100090321 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				9EB6439B281D13BE00090321 /* LoginVC */,
+				9EB6439D281D21CA00090321 /* TabbarVC */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		9EB6439B281D13BE00090321 /* LoginVC */ = {
+			isa = PBXGroup;
+			children = (
+				9EB6434B281D126500090321 /* LoginVC.swift */,
+			);
+			path = LoginVC;
+			sourceTree = "<group>";
+		};
+		9EB6439D281D21CA00090321 /* TabbarVC */ = {
+			isa = PBXGroup;
+			children = (
+				9EB643A3281D26C500090321 /* HomeVC */,
+				9EB643A6281D296700090321 /* BookVC */,
+				9EB643A9281D2A3F00090321 /* WishListVC */,
+				9EB6439E281D21CA00090321 /* TabbarVC.swift */,
+			);
+			path = TabbarVC;
+			sourceTree = "<group>";
+		};
+		9EB643A3281D26C500090321 /* HomeVC */ = {
+			isa = PBXGroup;
+			children = (
+				9EB643A4281D26DD00090321 /* HomeVC.swift */,
+			);
+			path = HomeVC;
+			sourceTree = "<group>";
+		};
+		9EB643A6281D296700090321 /* BookVC */ = {
+			isa = PBXGroup;
+			children = (
+				9EB643A7281D2A1D00090321 /* BookVC.swift */,
+				9EB643B4281D320A00090321 /* ReadBookVC.swift */,
+			);
+			path = BookVC;
+			sourceTree = "<group>";
+		};
+		9EB643A9281D2A3F00090321 /* WishListVC */ = {
+			isa = PBXGroup;
+			children = (
+				9EB643AA281D2A5500090321 /* WishListVC.swift */,
+			);
+			path = WishListVC;
+			sourceTree = "<group>";
+		};
+		9EB643AC281D2B8000090321 /* TableviewCell */ = {
+			isa = PBXGroup;
+			children = (
+				9EB643AD281D2B9F00090321 /* Book_Cell.swift */,
+				9EB643BA281D428800090321 /* WishList_Cell.swift */,
+			);
+			path = TableviewCell;
+			sourceTree = "<group>";
+		};
+		9EB643AF281D2DFB00090321 /* Resource */ = {
+			isa = PBXGroup;
+			children = (
+				9E719394281FAAF600433F78 /* Alice's Adventures in Wonderland by Lewis Caroll.pdf */,
+				9E719393281FAAF600433F78 /* An Introduction to Agriculture.pdf */,
+				9E71938D281FAAF500433F78 /* Basics Of HTML5.pdf */,
+				9E719391281FAAF600433F78 /* DotNETFramework Professionals.pdf */,
+				9E71938F281FAAF500433F78 /* Einstein's Dreams by Alan Lightman .pdf */,
+				9E719395281FAAF600433F78 /* Geography of the US by the Core Knowledge Foundation.pdf */,
+				9E719392281FAAF600433F78 /* JavaScript for Web Development.pdf */,
+				9E719390281FAAF600433F78 /* Practical Web Scraping.pdf */,
+				9E719396281FAAF600433F78 /* Python Programming.pdf */,
+				9E71938E281FAAF500433F78 /* The Metamorphosis by Franz Kafka.pdf */,
+			);
+			path = Resource;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		9EB64343281D126500090321 /* Bookworm */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9EB6435B281D126D00090321 /* Build configuration list for PBXNativeTarget "Bookworm" */;
+			buildPhases = (
+				9EB64340281D126500090321 /* Sources */,
+				9EB64341281D126500090321 /* Frameworks */,
+				9EB64342281D126500090321 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Bookworm;
+			productName = Bookworm;
+			productReference = 9EB64344281D126500090321 /* Bookworm.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		9EB6433C281D126500090321 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1300;
+				LastUpgradeCheck = 1300;
+				ORGANIZATIONNAME = "";
+				TargetAttributes = {
+					9EB64343281D126500090321 = {
+						CreatedOnToolsVersion = 13.0;
+					};
+				};
+			};
+			buildConfigurationList = 9EB6433F281D126500090321 /* Build configuration list for PBXProject "Bookworm" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 9EB6433B281D126500090321;
+			productRefGroup = 9EB64345281D126500090321 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				9EB64343281D126500090321 /* Bookworm */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		9EB64342281D126500090321 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9EB64357281D126D00090321 /* LaunchScreen.storyboard in Resources */,
+				9E71939E281FAAF600433F78 /* Alice's Adventures in Wonderland by Lewis Caroll.pdf in Resources */,
+				9E71939A281FAAF600433F78 /* Practical Web Scraping.pdf in Resources */,
+				9E7193A0281FAAF600433F78 /* Python Programming.pdf in Resources */,
+				9EB64354281D126D00090321 /* Assets.xcassets in Resources */,
+				9E71939F281FAAF600433F78 /* Geography of the US by the Core Knowledge Foundation.pdf in Resources */,
+				9E71939D281FAAF600433F78 /* An Introduction to Agriculture.pdf in Resources */,
+				9E719398281FAAF600433F78 /* The Metamorphosis by Franz Kafka.pdf in Resources */,
+				9E719399281FAAF600433F78 /* Einstein's Dreams by Alan Lightman .pdf in Resources */,
+				9EB6434F281D126500090321 /* Main.storyboard in Resources */,
+				9E719397281FAAF600433F78 /* Basics Of HTML5.pdf in Resources */,
+				9E71939B281FAAF600433F78 /* DotNETFramework Professionals.pdf in Resources */,
+				9E71939C281FAAF600433F78 /* JavaScript for Web Development.pdf in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		9EB64340281D126500090321 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9EB64395281D134100090321 /* IQKeyboardManager+UITextFieldViewNotification.swift in Sources */,
+				9EB6437F281D134000090321 /* IQTextView.swift in Sources */,
+				9EB64388281D134000090321 /* IQKeyboardManagerConstantsInternal.swift in Sources */,
+				9EB6438A281D134000090321 /* IQKeyboardManager+Position.swift in Sources */,
+				9EB64393281D134100090321 /* IQUIView+Hierarchy.swift in Sources */,
+				9EB643AB281D2A5500090321 /* WishListVC.swift in Sources */,
+				9EB64394281D134100090321 /* IQNSArray+Sort.swift in Sources */,
+				9EB64382281D134000090321 /* IQTitleBarButtonItem.swift in Sources */,
+				9EB643A5281D26DD00090321 /* HomeVC.swift in Sources */,
+				9EB6438F281D134000090321 /* IQKeyboardManager+Toolbar.swift in Sources */,
+				9EB6434C281D126500090321 /* LoginVC.swift in Sources */,
+				9EB64384281D134000090321 /* IQToolbar.swift in Sources */,
+				9EB6438D281D134000090321 /* IQKeyboardManager+Debug.swift in Sources */,
+				9EB643B5281D320A00090321 /* ReadBookVC.swift in Sources */,
+				9EB6438C281D134000090321 /* IQKeyboardManager.swift in Sources */,
+				9EB6438B281D134000090321 /* IQKeyboardReturnKeyHandler.swift in Sources */,
+				9EB643A0281D21CA00090321 /* TabbarVC.swift in Sources */,
+				9E71938C281F9FF800433F78 /* ImagePickerManager.swift in Sources */,
+				9EB64396281D134100090321 /* Toast.swift in Sources */,
+				9EB64398281D134100090321 /* Extension.swift in Sources */,
+				9EB64387281D134000090321 /* IQKeyboardManager+UIKeyboardNotification.swift in Sources */,
+				9EB64390281D134000090321 /* IQUIScrollView+Additions.swift in Sources */,
+				9EB643A8281D2A1D00090321 /* BookVC.swift in Sources */,
+				9EFB99DE281D4C9F00D13875 /* FloatRatingView.swift in Sources */,
+				9EB6438E281D134000090321 /* IQKeyboardManager+OrientationNotification.swift in Sources */,
+				9EB643AE281D2B9F00090321 /* Book_Cell.swift in Sources */,
+				9EB64383281D134000090321 /* IQBarButtonItem.swift in Sources */,
+				9EB64392281D134000090321 /* IQUITextFieldView+Additions.swift in Sources */,
+				9EB643BB281D428800090321 /* WishList_Cell.swift in Sources */,
+				9EB64381281D134000090321 /* IQPreviousNextView.swift in Sources */,
+				9EB64352281D126500090321 /* Bookworm.xcdatamodeld in Sources */,
+				9EB64348281D126500090321 /* AppDelegate.swift in Sources */,
+				9EB64391281D134000090321 /* IQUIViewController+Additions.swift in Sources */,
+				9EB64385281D134000090321 /* IQUIView+IQKeyboardToolbar.swift in Sources */,
+				9EB64386281D134000090321 /* IQInvocation.swift in Sources */,
+				9EB64380281D134000090321 /* IQKeyboardManager+Internal.swift in Sources */,
+				9EB64389281D134000090321 /* IQKeyboardManagerConstants.swift in Sources */,
+				9EB6434A281D126500090321 /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		9EB6434D281D126500090321 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9EB6434E281D126500090321 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		9EB64355281D126D00090321 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9EB64356281D126D00090321 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		9EB64359281D126D00090321 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		9EB6435A281D126D00090321 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		9EB6435C281D126D00090321 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Manual;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = "";
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Bookworm/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.Bookworm;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		9EB6435D281D126D00090321 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Manual;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = "";
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Bookworm/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.Bookworm;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		9EB6433F281D126500090321 /* Build configuration list for PBXProject "Bookworm" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9EB64359281D126D00090321 /* Debug */,
+				9EB6435A281D126D00090321 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9EB6435B281D126D00090321 /* Build configuration list for PBXNativeTarget "Bookworm" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9EB6435C281D126D00090321 /* Debug */,
+				9EB6435D281D126D00090321 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		9EB64350281D126500090321 /* Bookworm.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				9EB64351281D126500090321 /* Bookworm.xcdatamodel */,
+			);
+			currentVersion = 9EB64351281D126500090321 /* Bookworm.xcdatamodel */;
+			path = Bookworm.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 9EB6433C281D126500090321 /* Project object */;
+}
